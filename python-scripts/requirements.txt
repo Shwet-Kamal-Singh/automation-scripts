@@ -1,0 +1,41 @@
+# Cloud Management
+boto3
+azure-identity
+azure-mgmt-compute
+azure-mgmt-resource
+azure-mgmt-storage
+google-cloud-compute
+google-cloud-storage
+google-cloud-resource-manager
+
+# Configuration Management
+cryptography
+
+# Database Management
+psycopg2-binary
+mysql-connector-python
+sqlparse
+schedule
+
+# Miscellaneous Utilities
+pyyaml
+requests
+
+# Network Management
+dnspython
+paramiko
+
+# Security Management
+scapy
+python-nmap
+
+# System Management
+psutil
+
+# User Management
+flask
+python3-saml
+
+# General Purpose
+argparse
+logging
