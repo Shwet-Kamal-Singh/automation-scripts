@@ -24,6 +24,7 @@ automation/
 ├── deploy-automation.sh
 ├── first-setup.sh
 ├── main.sh
+├── nginx-ssl.sh
 ├── server-hardening.sh
 └── server-provision.sh
 ```
@@ -35,8 +36,9 @@ automation/
 2. `deploy-automation.sh`: Automates the deployment of software or updates.
 3. `first-setup.sh`: Handles initial setup tasks for a new server or environment.
 4. `main.sh`: Provides a menu-driven interface to execute other automation scripts.
-5. `server-hardening.sh`: Applies security measures to harden the server.
-6. `server-provision.sh`: Sets up a server with necessary software and configurations.
+5. `nginx-ssl.sh`: Automates the installation of SSL certificates using Certbot.
+6. `server-hardening.sh`: Applies security measures to harden the server.
+7. `server-provision.sh`: Sets up a server with necessary software and configurations.
 
 ## Prerequisites
 
@@ -72,7 +74,12 @@ To use these automation scripts, navigate to the `automation-scripts/bash-script
    ./server-provision.sh
    ```
 
-6. **Main Menu**:
+6. **Nginx SSL**:
+   ```bash
+   ./nginx-ssl.sh
+   ```
+
+7. **Main Menu**:
    ```bash
    ./main.sh
    ```
